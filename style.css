@@ -435,3 +435,19 @@ h3{
     font-style: italic;
 }
 
+.nav{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 2;
+    
+}
+
+.nav:hover {
+    color: rgb(118, 166, 228);
+    padding: 15px;
+    background-color: rgb(118, 166, 228);
+    border-radius: 20px;
+    color: white;
+}
