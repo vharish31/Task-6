@@ -425,3 +425,13 @@ h3{
     font-weight: bold;
     line-height: 5;
 }
+
+.footer-link {
+    color: rgb(118, 166, 228);
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
+    font-style: italic;
+}
+
