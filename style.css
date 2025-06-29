@@ -1,0 +1,414 @@
+*{
+    margin: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+   background: linear-gradient(to bottom,rgb(78, 124, 241),rgb(137, 20, 137));
+}
+
+.header {
+    background:linear-gradient(30deg,#535d61,#08b7fc);
+    padding: 30px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+
+.title {
+    font-size: 50px;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-shadow: 2px 2px 4px black;
+    word-spacing: 5px;
+}
+
+.subtitle{
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.navigation{
+    background: linear-gradient(30deg,#535d61,#093240);
+}
+
+.nav-list{
+    text-align: center;
+    padding: 15px;
+    line-height: 25px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.conent{
+    padding: 50%;
+    text-align: center;
+
+}
+
+.named-color {
+    background-color: rgb(250, 162, 114);
+    padding: 70px;
+    border-radius: 15px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.line{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.hex-color{
+    background-color: rgb(255, 115, 0);
+    padding: 70px;
+    border-radius: 15px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.rgb-color{
+    background-color: rgb(0, 149, 255);
+    padding: 70px;
+    border-radius: 15px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.rgba-color{
+    background-color: rgb(222, 130, 238);
+    padding: 70px;
+    border-radius: 15px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.hsl-color{
+    background-color: rgb(0, 255, 0);
+    padding: 70px;
+    border-radius: 15px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.sec{
+    text-align: center;
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 40px;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px gray;
+}
+
+.solid{
+    background-color: rgb(0, 149, 255);
+    padding: 70px;
+    border-radius: 15px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.gradient{
+    background: linear-gradient(to right,indigo,violet);
+    padding: 70px;
+    border-radius: 15px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.radial{
+    background: radial-gradient(circle,red,yellow);
+    padding: 70px;
+    border-radius: 15px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.background{
+    background-size: cover;
+    padding: 70px;
+    border-radius: 15px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    background: url('../Task-6/img/nexa robot.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#border{
+    border: 10px solid transparent;
+    border-image:url('../Task-6/img/image.png') 30 stretch;
+    padding: 70px;
+    color: white;
+    text-shadow: black 2px 2px 4px;
+    font-style: italic;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+}
+
+.solid-border{
+    border: 5px solid rgb(0, 149, 255);
+    padding: 70px;
+    color: gray;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.dotted-border{
+    border: 5px dotted red;
+    padding: 70px;
+    color: gray;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.dashed-border{
+    border: 5px dashed orange;
+    padding: 70px;
+    color: gray;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.double-border{
+    border: 5px double purple;
+    padding: 70px;
+    color: gray;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.groove-border{
+    border: 10px groove green;
+    padding: 70px;
+    color: gray;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.ridge-border{
+    border: 10px ridge brown;
+    padding: 70px;
+    color: gray;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.fancy{
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.para{
+    font-size: 23px;
+}
+
+#p1{
+    text-shadow: none;
+    font-style: italic;
+    text-align: start;
+    margin-bottom: 25px;
+}
+
+#p2{
+    color: blueviolet;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: none;
+    margin-bottom: 25px;
+}
+
+#p3{
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-style: italic;
+    text-align: start;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    color: silver;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+#p4{
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: start;
+    margin-bottom: 25px;
+    font-size: 23px;
+    font-weight: bold;
+    color: black;
+    text-shadow: none;
+}
+
+#p5{
+    text-decoration:wavy underline rgb(241, 18, 249);
+    font-style: italic;
+    text-align: start;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-shadow: none;
+}
+
+#p6{
+    font-style: italic;
+    text-align: start;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(83, 81, 81);
+    text-shadow: none;
+    line-height: 2;
+}
+
+h3{
+    text-shadow: none;
+    font-style: italic;
+    text-align: start;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#p7{
+    color: black;
+    margin-bottom: 25px;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    text-align: start;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: none;
+}
+#p8{
+    color: black;
+    margin-bottom: 25px;
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    text-align: start;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+#p9{
+    color: skyblue;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-align: start;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+#p10{
+    color: orange;
+    margin-bottom: 25px;
+    font-family: 'Cursive','Dancing Script', cursive;
+    font-style: italic;
+    text-align: start;
+    font-size: 20px;
+    text-shadow: none;
+}
+
+#units{
+    color: gray;
+    font-style: italic;
+    text-align: start;
+    text-shadow: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#px{
+    color: gray;
+    font-style: italic;
+    text-align: center;
+    text-shadow: none;
+    padding: 70px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 3px solid gray;
+    background-color: rgb(207, 204, 204);
+    border-radius: 10px;
+}
+
+#em{
+    color: gray;
+    font-style: italic;
+    text-shadow: none;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 70px;
+    border: 3px solid gray;
+    background-color: rgb(207, 204, 204);
+    border-radius: 10px;
+}
+
+#rem{
+    color: gray;
+    font-style: italic;
+    text-shadow: none;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 70px;
+    border: 3px solid gray;
+    background-color: rgb(207, 204, 204);
+    border-radius: 10px;
+}
+
+#percent{
+    color: gray;
+    font-style: italic;
+    text-shadow: none;
+    font-size: 50%;
+    font-weight: bold;
+    text-align: center;
+    padding: 70px;
+    border: 3px solid gray;
+    background-color: rgb(207, 204, 204);
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+}
+
+#viewport{
+    color: gray;
+    font-style: italic;
+    text-shadow: none;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    padding: 70px;
+    border: 3px solid gray;
+    background-color: rgb(207, 204, 204);
+    border-radius: 10px;
+}
